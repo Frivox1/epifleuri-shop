@@ -4,7 +4,7 @@ import { ArrowLeft, Home, Store, User, CheckCircle, RefreshCw, AlertTriangle, Se
 import { useCart } from '../context/CartContext';
 import deliveryZones from '../data/zones.json';
 
-import { db } from '../firebase';
+import { db } from '../firebase.js';
 import { collection, addDoc } from "firebase/firestore"; 
 
 const Paiement = () => {
