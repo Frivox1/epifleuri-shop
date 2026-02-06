@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Shield, RefreshCw, CheckCircle, Clock, Trash2, LogOut } from 'lucide-react';
-import { db } from '../firebase.js';
+import { db } from '@/firebase.js';
 import { collection, getDocs, orderBy, query, doc, deleteDoc, updateDoc } from 'firebase/firestore';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
