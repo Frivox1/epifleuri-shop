@@ -14,7 +14,7 @@ const PORT = 3001;
 app.use(cors());
 app.use(express.json()); // Remplacement de body-parser
 
-const ordersFilePath = path.join(__dirname, 'orders.json');
+const ordersFilePath = path.join('/tmp', 'orders.json');
 
 // Helper function to read orders
 const readOrders = () => {
@@ -161,6 +161,4 @@ app.delete('/api/orders/:id', (req, res) => {
   res.status(200).json({ message: 'Commande supprimée avec succès' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
+export default app;
