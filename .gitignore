@@ -422,4 +422,4 @@ FodyWeavers.xsd
 # End of https://mrkandreev.name/snippets/gitignore-generator/#macOS,Firebase,VisualStudio,vite
 
 
-src/firebase.js
+.env
