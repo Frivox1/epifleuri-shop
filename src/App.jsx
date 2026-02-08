@@ -15,12 +15,14 @@ import PrivateRoute from './components/PrivateRoute';
 import AdminDashboard from './pages/AdminDashboard';
 import MentionsLegales from './pages/MentionsLegales';
 import PolitiqueConfidentialite from './pages/PolitiqueConfidentialite';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <AuthProvider>
       <CartProvider>
         <Router>
+          <ScrollToTop />
           <div className="min-h-screen flex flex-col">
             <Navbar />
             <main className="flex-1">

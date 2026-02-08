@@ -54,7 +54,7 @@ const Confirmation = () => {
               <div className="text-left">
                 <h3 className="font-semibold text-gray-800 text-lg">Envoyez la preuve de paiement</h3>
                 <p className="text-gray-600">
-                  Veuillez envoyer la preuve de votre paiement avec comme communication <span className="font-semibold text-rose-fonce">{orderId}</span> via Whatsapp au <span className="font-semibold text-rose-fonce">081 87 95 55</span>.
+                  Veuillez envoyer la preuve de votre paiement à ce numéro de compte <span className="font-semibold text-rose-fonce">BE94 0682 4154 8114</span> avec comme communication <span className="font-semibold text-rose-fonce">{orderId}</span> via Whatsapp au <span className="font-semibold text-rose-fonce">081 87 95 55</span>.
                 </p>
               </div>
             </div>

@@ -76,7 +76,7 @@ const Home = () => {
     {
       icon: <Truck size={24} />,
       title: "Livraison Rapide",
-      description: "Livraison le lendemain dans toutes nos zones"
+      description: "Livraison dans les 2 jours ouvrables dans toutes nos zones"
     },
     {
       icon: <Flower size={24} />,

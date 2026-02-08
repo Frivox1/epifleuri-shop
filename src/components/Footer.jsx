@@ -6,33 +6,33 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo et description */}
-          <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-rose-fonce rounded-full flex items-center justify-center">
-                <span className="text-white font-playfair font-bold text-lg">F</span>
-              </div>
-              <span className="font-playfair font-semibold text-xl text-gray-800">
-                Epi Fleuri
-              </span>
-            </div>
-            <p className="text-gray-600 mb-4 max-w-md">
-              Offrez des fleurs, offrez du bonheur. Notre artisan fleuriste crée des bouquets 
-              uniques pour toutes vos occasions spéciales.
-            </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-rose-fonce transition-colors duration-300">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-rose-fonce transition-colors duration-300">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-rose-fonce transition-colors duration-300">
-                <Twitter size={20} />
-              </a>
-            </div>
-          </div>
+                <div className="col-span-1 md:col-span-2">
+                <div className="flex items-center space-x-2 mb-4">
+                  <div className="w-8 h-8 bg-rose-fonce rounded-full flex items-center justify-center">
+                  <span className="text-white font-playfair font-bold text-lg">E</span>
+                  </div>
+                  <span className="font-playfair font-semibold text-xl text-gray-800">
+                  Epi Fleuri
+                  </span>
+                </div>
+                <p className="text-gray-600 mb-4 max-w-md">
+                  Offrez des fleurs, offrez du bonheur. Notre artisan fleuriste crée des bouquets 
+                  uniques pour toutes vos occasions spéciales.
+                </p>
+                <div className="flex space-x-4">
+                  <a
+                  href="https://www.facebook.com/lepifleuri"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Epi Fleuri on Facebook"
+                  className="text-gray-400 hover:text-rose-fonce transition-colors duration-300"
+                  >
+                  <Facebook size={20} />
+                  </a>
+                </div>
+                </div>
 
-          {/* Contact */}
+                {/* Contact */}
           <div>
             <h3 className="font-playfair font-semibold text-lg text-gray-800 mb-4">
               Contact
@@ -100,6 +100,9 @@ const Footer = () => {
             </a> | 
             <a href="/politique-confidentialite" className="hover:text-rose-fonce transition-colors duration-300 ml-1">
               Politique de confidentialité
+            </a> | 
+            <a href="/admin" className="hover:text-rose-fonce transition-colors duration-300 ml-1">
+              Espace administrateur
             </a>
           </p>
         </div>
