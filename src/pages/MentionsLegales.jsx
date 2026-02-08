@@ -64,12 +64,6 @@ const MentionsLegales = () => {
               Les conditions générales de vente sont accessibles sur notre site et doivent être consultées avant tout achat.
             </p>
           </section>
-
-           <div className="pt-6 border-t mt-6">
-              <p className="text-xs text-gray-500">
-                <strong>Avertissement :</strong> Ces mentions légales sont un modèle et ne sauraient engager notre responsabilité. Elles doivent être vérifiées et adaptées par un professionnel du droit pour correspondre à votre situation spécifique.
-              </p>
-           </div>
         </div>
       </div>
     </div>

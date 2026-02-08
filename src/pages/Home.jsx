@@ -107,7 +107,7 @@ const Home = () => {
             <Link to="/boutique" className="btn-primary text-lg px-8 py-4">
               Découvrir nos bouquets
             </Link>
-            <Link to="/about" className="text-lg px-8 py-4 border-2 border-rose-fonce bg-transparent text-rose-fonce rounded-lg hover:bg-rose-fonce/10 transition-colors duration-300">
+            <Link to="https://www.epifleuri.be" className="text-lg px-8 py-4 border-2 border-rose-fonce bg-transparent text-rose-fonce rounded-lg hover:bg-rose-fonce/10 transition-colors duration-300">
               À propos de nous
             </Link>
           </div>

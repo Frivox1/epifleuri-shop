@@ -95,12 +95,12 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-gray-200 text-center">
           <p className="text-gray-500 text-sm">
             © 2026 Epi Fleuri. Tous droits réservés. | 
-            <a href="/mentions-legales" className="hover:text-rose-fonce transition-colors duration-300 ml-1">
+            {/* <a href="/mentions-legales" className="hover:text-rose-fonce transition-colors duration-300 ml-1">
               Mentions légales
             </a> | 
             <a href="/politique-confidentialite" className="hover:text-rose-fonce transition-colors duration-300 ml-1">
               Politique de confidentialité
-            </a> | 
+            </a> |  */}
             <a href="/admin" className="hover:text-rose-fonce transition-colors duration-300 ml-1">
               Espace administrateur
             </a>

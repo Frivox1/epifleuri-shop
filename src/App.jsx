@@ -4,7 +4,6 @@ import { CartProvider } from './context/CartContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import About from './pages/About';
 import Boutique from './pages/Boutique';
 import Produit from './pages/Produit';
 import Panier from './pages/Panier';
@@ -28,7 +27,6 @@ function App() {
             <main className="flex-1">
               <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
                 <Route path="/boutique" element={<Boutique />} />
                 <Route path="/produit/:id" element={<Produit />} />
                 <Route path="/panier" element={<Panier />} />
