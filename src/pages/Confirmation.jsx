@@ -58,25 +58,36 @@ const Confirmation = () => {
                 </p>
               </div>
             </div>
+
             <div className="flex items-start space-x-4">
               <div className="w-10 h-10 bg-rose-pastel text-rose-fonce rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">2</div>
               <div className="text-left">
+                <h3 className="font-semibold text-gray-800 text-lg">Message de la fleuriste</h3>
+                <p className="text-gray-600">
+                  Notre fleuriste vous contactera au plus vite pour convenir d'un rendez-vous pour le retrait ou la livraison de votre bouquet.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start space-x-4">
+              <div className="w-10 h-10 bg-rose-pastel text-rose-fonce rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">3</div>
+              <div className="text-left">
                 <h3 className="font-semibold text-gray-800 text-lg">Préparation du bouquet</h3>
                 <p className="text-gray-600">
-                  Une fois votre paiement confirmé, notre artisan fleuriste prépare votre bouquet avec le plus grand soin.
+                  Notre artisan fleuriste prépare votre bouquet avec le plus grand soin.
                 </p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
-              <div className="w-10 h-10 bg-rose-pastel text-rose-fonce rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">3</div>
+              <div className="w-10 h-10 bg-rose-pastel text-rose-fonce rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">4</div>
               <div className="text-left">
                 <h3 className="font-semibold text-gray-800 text-lg">
                   {order.deliveryMethod === 'livraison' ? 'Livraison' : 'Prêt pour le retrait'}
                 </h3>
                 <p className="text-gray-600">
                   {order.deliveryMethod === 'livraison' 
-                    ? 'Nous vous notifierons lorsque votre commande sera en cours de livraison.' 
-                    : 'Nous vous notifierons dès que votre commande sera prête à être retirée.'}
+                    ? 'Votre bouquet sera livré à l’adresse indiquée à la date convenue avec notre fleuriste.'
+                    : 'Vous pouvez venir retirer votre commande en magasin à l’heure convenue avec notre fleuriste.'}
                 </p>
               </div>
             </div>
@@ -158,8 +169,7 @@ const Confirmation = () => {
               <div className="text-left pt-4 border-t mt-4">
                 <h3 className="font-semibold text-gray-800 mb-2">Retrait en magasin</h3>
                 <p className="text-gray-700">
-                  La commande sera prête à être retirée à notre boutique.
-                  Vous recevrez une notification par e-mail.
+                  Notre fleuriste vous contacte au plus vite pour convenir d'un rendez-vous pour le retrait de votre commande.
                 </p>
               </div>
             )}
